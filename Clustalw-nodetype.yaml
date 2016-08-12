@@ -1,0 +1,17 @@
+clustalW:
+    derived_from: workflow_service
+    properties:
+      Align:
+        type: string
+        default: true
+      Output-Type:
+        type: string
+        default: CLUSTAL
+      #input
+      input-sequences:
+        type: string
+        default: file-wrapper
+      #output:
+      aligned-sequences:
+        type: string
+        default: file-wrapper
